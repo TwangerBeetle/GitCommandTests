@@ -10,13 +10,15 @@ namespace PixelEngine
 		public byte G { get; private set; }
 		public byte B { get; private set; }
 		public byte A { get; private set; }
+		public byte C { get; private set; }
 
-		public Pixel(byte red, byte green, byte blue, byte alpha = 255)
+		public Pixel(byte red, byte green, byte blue, byte alpha = 255, byte cyan)
 		{
 			R = red;
 			G = green;
 			B = blue;
 			A = alpha;
+			C = cyan;
 		}
 
 		public enum Mode

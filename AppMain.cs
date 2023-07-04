@@ -16,6 +16,7 @@ namespace PixelEngine
 			R = red;
 			B = blue;
 			C = cyan;
+
 		}
 
 		public enum Mode
@@ -29,6 +30,7 @@ namespace PixelEngine
 		public void Yay()
         {
 			int hehe = B;
+			int haha = C;
         }
 
 		public static Pixel Random()

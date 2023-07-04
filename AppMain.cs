@@ -14,7 +14,6 @@ namespace PixelEngine
 		public Pixel(byte red, byte green, byte blue, byte cyan)
 		{
 			R = red;
-			G = green;
 			B = blue;
 			C = cyan;
 		}
@@ -26,6 +25,11 @@ namespace PixelEngine
 			Alpha,
 			Custom
 		}
+
+		public void Yay()
+        {
+			int hehe = B;
+        }
 
 		public static Pixel Random()
 		{

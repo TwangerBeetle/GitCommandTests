@@ -29,6 +29,8 @@ namespace PixelEngine
 
 		public static DoThing(int a)
         {
+			int bleh = a;
+			bleh++;
 			return a++;
         }
 

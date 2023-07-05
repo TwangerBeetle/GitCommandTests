@@ -27,6 +27,29 @@ namespace PixelEngine
 			Custom
 		}
 
+
+
+
+
+		public void Yay()
+        {
+			int hehe = R;
+			int haha = C;
+        }
+
+		public static DoThing(int a)
+        {
+			int bleh = a;
+			bleh++;
+			return a++;
+        }
+
+		public static Pixel Random()
+		{
+			byte[] vals = Randoms.RandomBytes(3);
+			return new Pixel(vals[0], vals[1], vals[2]);
+		}
+
 		public void Yay()
         {
 			int hehe = B;

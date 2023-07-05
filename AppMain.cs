@@ -27,6 +27,16 @@ namespace PixelEngine
 			Custom
 		}
 
+
+
+
+
+		public void Yay()
+        {
+			int hehe = R;
+			int haha = C;
+        }
+
 		public static DoThing(int a)
         {
 			int bleh = a;
